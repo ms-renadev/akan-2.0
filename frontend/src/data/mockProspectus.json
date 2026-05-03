@@ -1,0 +1,80 @@
+{
+  "studentCreditedCodes": ["MATH101","MATH102","MATH211","IT101","IT102","IT201","IT312"],
+  "programs": [
+    {
+      "id": "bscs",
+      "name": "BS Computer Science",
+      "totalUnits": 163,
+      "curriculum": [
+        {"code":"MATH101","name":"College Algebra","units":3,"year":1,"sem":1},
+        {"code":"MATH102","name":"Trigonometry","units":3,"year":1,"sem":1},
+        {"code":"MATH103","name":"Calculus 1","units":3,"year":1,"sem":2},
+        {"code":"MATH211","name":"Discrete Mathematics","units":3,"year":2,"sem":1},
+        {"code":"CS101","name":"Intro to Computing","units":3,"year":1,"sem":1},
+        {"code":"IT102","name":"Programming 1","units":3,"year":1,"sem":2},
+        {"code":"CS201","name":"Data Structures","units":3,"year":2,"sem":1},
+        {"code":"CS202","name":"Algorithm Design","units":3,"year":2,"sem":2},
+        {"code":"CS211","name":"Computer Organization","units":3,"year":2,"sem":2},
+        {"code":"CS301","name":"Theory of Computation","units":3,"year":3,"sem":1},
+        {"code":"CS311","name":"Operating Systems","units":3,"year":3,"sem":1},
+        {"code":"CS312","name":"Database Systems","units":3,"year":3,"sem":2},
+        {"code":"CS401","name":"Machine Learning","units":3,"year":4,"sem":1},
+        {"code":"CS411","name":"Software Engineering","units":3,"year":4,"sem":1},
+        {"code":"CS499","name":"Research & Thesis","units":6,"year":4,"sem":2}
+      ]
+    },
+    {
+      "id": "bsece",
+      "name": "BS Electronics Engineering",
+      "totalUnits": 165,
+      "curriculum": [
+        {"code":"MATH101","name":"College Algebra","units":3,"year":1,"sem":1},
+        {"code":"MATH102","name":"Trigonometry","units":3,"year":1,"sem":1},
+        {"code":"PHYS101","name":"Physics 1","units":3,"year":1,"sem":1},
+        {"code":"ECE101","name":"Fundamentals of Electronics","units":3,"year":1,"sem":2},
+        {"code":"ECE102","name":"Circuit Theory 1","units":3,"year":2,"sem":1},
+        {"code":"ECE201","name":"Circuit Theory 2","units":3,"year":2,"sem":2},
+        {"code":"ECE211","name":"Digital Electronics","units":3,"year":3,"sem":1},
+        {"code":"ECE301","name":"Signals & Systems","units":3,"year":3,"sem":2},
+        {"code":"ECE311","name":"Communications Engineering","units":3,"year":4,"sem":1},
+        {"code":"ECE401","name":"Microelectronics","units":3,"year":4,"sem":1},
+        {"code":"ECE499","name":"Thesis / Design Project","units":6,"year":4,"sem":2}
+      ]
+    },
+    {
+      "id": "bsmaths",
+      "name": "BS Mathematics",
+      "totalUnits": 148,
+      "curriculum": [
+        {"code":"MATH101","name":"College Algebra","units":3,"year":1,"sem":1},
+        {"code":"MATH102","name":"Trigonometry","units":3,"year":1,"sem":1},
+        {"code":"MATH103","name":"Calculus 1","units":3,"year":1,"sem":2},
+        {"code":"MATH211","name":"Discrete Mathematics","units":3,"year":2,"sem":1},
+        {"code":"MATH212","name":"Calculus 2","units":3,"year":2,"sem":1},
+        {"code":"MATH301","name":"Linear Algebra","units":3,"year":2,"sem":2},
+        {"code":"MATH311","name":"Differential Equations","units":3,"year":3,"sem":1},
+        {"code":"MATH401","name":"Real Analysis","units":3,"year":3,"sem":2},
+        {"code":"STAT301","name":"Mathematical Statistics","units":3,"year":4,"sem":1},
+        {"code":"MATH499","name":"Research Paper","units":6,"year":4,"sem":2}
+      ]
+    },
+    {
+      "id": "bscoe",
+      "name": "BS Computer Engineering",
+      "totalUnits": 170,
+      "curriculum": [
+        {"code":"MATH101","name":"College Algebra","units":3,"year":1,"sem":1},
+        {"code":"MATH102","name":"Trigonometry","units":3,"year":1,"sem":1},
+        {"code":"MATH211","name":"Discrete Mathematics","units":3,"year":2,"sem":1},
+        {"code":"IT312","name":"Systems Analysis & Design","units":3,"year":2,"sem":2},
+        {"code":"COE101","name":"Intro to Computer Engineering","units":3,"year":1,"sem":2},
+        {"code":"COE201","name":"Digital Logic Design","units":3,"year":2,"sem":1},
+        {"code":"COE202","name":"Computer Architecture","units":3,"year":2,"sem":2},
+        {"code":"COE301","name":"Embedded Systems","units":3,"year":3,"sem":1},
+        {"code":"COE311","name":"VLSI Design","units":3,"year":3,"sem":2},
+        {"code":"COE401","name":"Real-Time Systems","units":3,"year":4,"sem":1},
+        {"code":"COE499","name":"Capstone Project","units":6,"year":4,"sem":2}
+      ]
+    }
+  ]
+}
